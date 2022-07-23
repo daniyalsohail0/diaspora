@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  background-image: linear-gradient(to left top, #000000, #1c000e, #26001e, #280034, #150050);
+  font-family: 'Roboto', sans-serif;
 }
 
 .App-logo {
