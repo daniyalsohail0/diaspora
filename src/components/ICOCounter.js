@@ -43,9 +43,9 @@ const ICOCounter = () => {
 
   return (
     <div className='flex flex-col md:justify-between justify-center items-center pb-16'>
-        <div className='md:w-3/4 py-8 md:px-4'>
+        <div className='md:w-3/4 w-5/6 py-8 md:px-4'>
           <h1 className='md:text-5xl text-3xl text-center font-extrabold text-white py-4'>ICO EVENT</h1>
-          <div className='flex flex-col justify-center items-center white-glassmorphism p-4 shadow-md shadow-cyan-400'>
+          <div className='flex flex-col justify-center items-center white-glassmorphism p-4 shadow-md shadow-yellow-400'>
             <h1 className='text-white text-3xl uppercase text-center font-sans'>FAIRLAUNCH</h1>
             <h1 className='text-white text-3xl uppercase text-center font-sans'>ON</h1>
             <h1 className='text-white text-3xl uppercase text-center font-sans'>PINKSALE</h1>

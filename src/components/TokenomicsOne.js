@@ -3,7 +3,7 @@ import React from 'react'
 const TokenomicsOne = () => {
   return (
     <div className='flex flex-col justify-center items-center'>
-      <div className='flex flex-col justify-center items-center h-screen'>
+      <div className='flex flex-col justify-center items-center py-8'>
         <div className='grid grid-cols-1 md:w-1/2 p-2'>
           <p className='text-white p-2'>Technology</p>
           <h1 className='text-white text-4xl font-semibold p-2'>The most trusted way to build value.</h1>
@@ -47,9 +47,9 @@ const TokenomicsOne = () => {
           </div>
         </div>
       </div>
-      <div className='flex flex-col justify-center items-center white-glassmorphism p-4 shadow-md shadow-cyan-400 w-3/4'>
-        <h1 className='text-5xl font-bold text-white m-4 p-4'>About Our Tokenomics</h1>
-        <div className='flex justify-center items-center gap-24'>
+      <div className='flex flex-col justify-center items-center white-glassmorphism p-4 shadow-md shadow-yellow-400 md:w-3/4 w-5/6'>
+        <h1 className='text-5xl font-bold text-white m-4 p-4 text-center'>About Our Tokenomics</h1>
+        <div className='flex md:flex-row flex-col justify-center items-center md:gap-24'>
           <div className='blue-glassmorphism m-4 p-4 hover:white-glassmorphism w-[200px] h-[250px]'>
             <h3 className='text-white font-semibold'>
               Unique Token Insurance Mechanism
@@ -67,7 +67,7 @@ const TokenomicsOne = () => {
             </p>
           </div>
         </div>
-        <div className='flex justify-center items-center gap-64'>
+        <div className='flex md:flex-row flex-col justify-center items-center md:gap-64'>
           <div className='blue-glassmorphism m-4 p-4 hover:white-glassmorphism w-[200px] h-[250px]'>
             <h3 className='text-white font-semibold'>
               Unique Token Insurance Mechanism
